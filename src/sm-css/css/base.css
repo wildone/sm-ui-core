@@ -1,0 +1,21 @@
+/**
+ * Sane defaults
+ */
+:host {
+  display: block;
+}
+
+:host, *, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+audio, canvas, img, video {
+  vertical-align: middle;
+}
+
+/* Shim inconsistent browser hidden property */
+:host[hidden], *[hidden] {
+	display: none !important;
+}

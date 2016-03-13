@@ -1,0 +1,28 @@
+/**
+ * Custom reset for Simpla components
+ */
+div, span, object, h1, h2, h3, h4, h5,
+h6, a, em, small, img, ol, ul, li,
+fieldset, form, label, legend, input,
+textarea, button:not([is]), article, aside,
+section, summary, canvas, embed, figure,
+figcaption, footer, header, hgroup, menu,
+nav, output, time, mark {
+	margin: 0;
+	padding: 0;
+	border: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	vertical-align: baseline;
+}
+
+input, button:not([is]) {
+  box-shadow: none;
+  background: none;
+  white-space: normal;
+}
+
+:focus, :active {
+	outline: 0;
+}

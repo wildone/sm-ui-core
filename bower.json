@@ -1,0 +1,25 @@
+{
+  "name": "sm-ui-core",
+  "description": "Core UI resources for Simpla elements (CSS, icons, etc.)",
+  "version": "0.0.0",
+  "authors": [
+    "Simpla International <admin@simpla.io>"
+  ],
+  "license": "MIT",
+  "main": "sm-ui-core.html",
+  "keywords": [
+    "simpla",
+    "web component",
+    "polymer",
+    "core"
+  ],
+  "ignore": [
+    "*",
+    "!src/**/*",
+    "!*.html",
+    "!LICENSE"
+  ],
+  "dependencies": {
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg"
+  }
+}

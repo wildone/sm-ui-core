@@ -1,0 +1,35 @@
+/**
+ * Core variables and mixins
+ * Shimmed by Polymer custom props
+ */
+:root {
+
+  /* Grayscale */
+  --light-black: rgba(0,0,0,0.2);
+  --med-black: rgba(0,0,0,0.5);
+  --light-white: rgba(255,255,255, 0.25);
+  --med-white: rgba(255,255,255,0.7);
+  --bright-white: rgba(255,255,255,0.85);
+  --gray: rgb(180,180,180);
+  --light-gray: rgb(230,230,230);
+  --dark-gray: rgb(120,120,120);
+  --text-color: #303c46;
+
+  /* Colors */
+  --blue: #44d8dc;
+  --green: #18c48b;
+  --orange: #f1c40f;
+  --red: #f44336;
+
+  /* UI  */
+  --border-radius: 3px;
+  --tool-size: 42px;
+  --on-top: 1999999999;
+
+  /* Typography */
+  --typography: {
+		font-family: 'GT Walsheim', sans-serif;
+	  line-height: 1;
+	};
+
+}
