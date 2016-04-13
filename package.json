@@ -1,6 +1,6 @@
 {
   "name": "sm-ui-core",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Core UI resources for Simpla elements (CSS, icons, etc.)",
   "main": "sm-ui-core.html",
   "scripts": {

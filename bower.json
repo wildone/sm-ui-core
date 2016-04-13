@@ -1,7 +1,7 @@
 {
   "name": "sm-ui-core",
   "description": "Core UI resources for Simpla elements (CSS, icons, etc.)",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "Simpla International <admin@simpla.io>"
   ],
