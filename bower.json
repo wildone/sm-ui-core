@@ -21,6 +21,7 @@
     "!LICENSE"
   ],
   "dependencies": {
-    "iron-iconset-svg": "PolymerElements/iron-iconset-svg"
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg",
+    "web-animations-js": "^2.2.0"
   }
 }
