@@ -10,9 +10,10 @@
   --light-white: rgba(255,255,255, 0.25);
   --med-white: rgba(255,255,255,0.7);
   --bright-white: rgba(255,255,255,0.85);
-  --gray: rgb(180,180,180);
+  --off-white: #fbfbfb;
   --light-gray: rgb(230,230,230);
-  --dark-gray: rgb(120,120,120);
+  --gray: rgb(180,180,180);
+  --dark-gray: rgb(130,130,130);
   --text-color: #303c46;
 
   /* Colors */
