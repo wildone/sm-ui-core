@@ -1,21 +1,29 @@
 /**
  * Sane defaults
  */
-:host {
-  display: block;
+*, *::before, *::after {
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+           font-smoothing: antialiased;
 }
 
-:host, *, *::before, *::after {
+/* Style host separately otherwise whole rule
+   ignored by unsupported browsers */
+:host {
+  display: block;
   box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+   -webkit-font-smoothing: antialiased;
+           font-smoothing: antialiased;
 }
+
 
 audio, canvas, img, video {
   vertical-align: middle;
 }
 
 /* Shim inconsistent browser hidden property */
-:host[hidden], *[hidden] {
+*[hidden] {
 	display: none !important;
 }
