@@ -7,10 +7,15 @@
   /* Grayscale */
   --light-black: rgba(0,0,0,0.2);
   --med-black: rgba(0,0,0,0.5);
+  --dark-black: rgba(0,0,0,0.7);
+
   --light-white: rgba(255,255,255, 0.25);
   --med-white: rgba(255,255,255,0.7);
   --bright-white: rgba(255,255,255,0.85);
-  --off-white: #fbfbfb;
+
+  --off-white: #f8f9fb;
+
+  --very-light-gray: #f4f5f6;
   --light-gray: rgb(230,230,230);
   --gray:  #B2BCC8;
   --dark-gray: #767D85;
