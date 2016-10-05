@@ -19,6 +19,7 @@
   --light-gray: rgb(230,230,230);
   --gray:  #B2BCC8;
   --dark-gray: #767D85;
+
   --text-color: #303c46;
 
   /* Colors */
@@ -36,7 +37,7 @@
 
   /* Typography */
   --typography: {
-		font-family: 'GT Walsheim', sans-serif;
+		font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Helvetica, sans-serif;
 	  line-height: 1;
 	};
 
